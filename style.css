@@ -1,0 +1,126 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.whole-body {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+
+    justify-content: center;
+    margin-top: 5rem;
+
+    overflow: hidden;
+}
+
+.image {
+    height: 600px;
+    overflow: hidden;
+
+    border-radius: 20px 0 0 20px ;
+}
+
+.perfume-title, .info, .second-price {
+    color: hsl(228, 12%, 48%);
+}
+
+.perfume-title, .info, .title {
+    padding: 0 15px 0;
+}
+
+.perfume-title {
+    letter-spacing: 3px;
+}
+
+.text-div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+
+    border-radius: 0 20px 20px 0;
+
+}
+
+.title {
+    font-family: "Fraunces";
+    font-weight: 700;
+    color:  hsl(212, 21%, 14%);
+    font-size: 45px;
+    margin-top: 10px;
+    padding: 0 15px 0;
+}
+
+.info {
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 8px 0;
+    padding-right: 16px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 20px 0;
+}
+
+.first-price {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.second-price {
+    text-decoration: line-through;
+}
+
+.add-to-cart-grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+} 
+
+.add-to-cart-grid {
+    margin-top: 15px;
+}
+
+.add-to-cart-grid button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: 0;
+    transition: all 0.5s;
+    padding: 2px 128px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    cursor: pointer;
+}
+
+
+.add-to-cart-grid button:hover {
+    background-color: #244d3e;
+}
+
+.icon-cart {
+    align-self: center;
+    padding-right: 15px;
+}
+
+.attribution {
+    margin-top: 5rem;
+}
